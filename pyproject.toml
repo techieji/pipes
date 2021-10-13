@@ -3,12 +3,9 @@ requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
-module = "pipes"
+module = "pipes-python"
 author = "Pradhyum R"
 description-file = "README.md"
 author-email = "drpradhyum2016@outlook.com"
 home-page = "https://github.com/techieji/pipes"
 classifiers = [ "License :: OSI Approved :: MIT License",]
-
-[project.optional-dependencies]
-all = ["forbiddenfruit"]
